@@ -51,7 +51,7 @@ app.use(bodyParser.json());
 // const cors = require('cors');
 
 app.use(cors({
-  origin: 'http://localhost:5000', // React frontend URL
+  origin: 'https://final-rust-zeta.vercel.app/', // React frontend URL
   credentials: true, // Allow cookies to be sent
 }));
 const JWT_SECRET = "07da40547e8307eb2a3504f9ad2aec8e5e975a3ec17f64c3d399a4b346849721d0b5d6e6eb69e24c65975e868e090012e9241f78364831d134e4428964fefcb2";
